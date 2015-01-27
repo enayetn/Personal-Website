@@ -1,0 +1,291 @@
+/*
+	Created by Nabil Enayet 8/2/2014
+	Styleguide: Orangeuglad;
+*/
+<%@page contentType="text/css" %>
+
+
+
+
+/*******************    NABILENAYET     ******************** */
+
+html, body {
+	width:100%;
+	height:100%;
+	//background:url(../img/dc25.png) center center no-repeat;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    background: url('./images/background.png');
+    text-align: left;
+    margin: auto;
+}
+
+.notif {
+	font-size:1.5em;
+}
+
+#landingContent {
+	min-height:100%;
+	//background-attachment: scroll, scroll, scroll, fixed;
+	background-image: url("../img/banner.jpg");
+	background-repeat:  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width:100%;
+	color: white;
+	cursor: default;
+	text-align: center;
+}
+
+.banner {
+	//
+}
+
+.logoImg {
+	height:40px;
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+
+
+.tagLine {
+	margin-top:4%;
+	margin-bottom:1%;
+	font-size:6em;
+}
+
+.subLine {
+	margin-top:30px;
+	margin-bottom:1%;
+	font-size:1.8em;
+}
+
+.meImg {
+	height:150px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius:50%;
+	border-style:solid;
+	border-color:white;
+	border-width:2px;
+	padding:3px;
+}
+
+.projectImg {
+	height:150px;
+	width:150px;
+}
+
+.projectImgPad {
+	height:150px;
+	padding:25px;
+}
+
+.projectImgPadIcon {
+	height:150px;
+	padding:40px;
+}
+
+.contactContainer {
+	margin-top:3%;
+	margin-bottom:3%;
+	color:white;
+}
+
+.contact {
+	font-size:1.5em;
+}
+
+.border {
+	height:1px; 
+	width:100%; 
+	clear:both; 
+	background-color:white;
+}
+
+.moreInfoArrow {
+	margin-top:5%;
+	height:35px;
+	margin-bottom:10%;
+}
+
+.toTop {
+	ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+#register {
+	font-size:1.5em;
+	margin-top:5%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.info {
+	background-color:#161616;
+}
+
+#meetYour {
+	font-size:3em;
+}
+
+#nextContent {
+	font-size:5em;
+	height:fixed;
+}
+
+#explain {
+	font-size:3em;
+}
+
+.subExplain {
+	font-size:1.2em;
+}
+
+.divideTop {
+	margin-top: 1%;
+	margin-bottom:1%;
+	width:auto;
+}
+
+.divideBot {
+	margin-top: 1%;
+	margin-bottom:1%;
+}
+
+hr.dc25 {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+.features {
+	font-size:1.2em;
+	margin-bottom:4%;
+}
+
+
+/*******************    /DC25     ******************** */
+
+
+/*******************    Text     ******************** */
+
+/*Links*/
+
+.spacer {
+	color:#F0F0F0;
+}
+
+a:hover {
+	color:#F0842B;
+}
+
+/*Call to attention*/
+#umph {
+	color:#F0842B;
+	font-weight:900;
+}
+
+@font-face {
+ font-family: 'BebasNeue';
+ src: url("../fonts/BebasNeue.otf") format("freetype");
+}
+
+@font-face {
+ font-family: 'Oswald';
+ src: url("../fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'JosefinSlab';
+	src: url("../fonts/JosefinSlab-SemiBold.ttf") format("truetype");
+}
+
+.bebas {
+	font-family:'BebasNeue';
+}
+
+.oswald {
+	font-family:'Oswald';
+}
+
+.joslab {
+	font-family:'JosefinSlab';
+}
+
+.white {
+	color:white;
+}
+
+.black{
+	color:#b1aba4;
+}
+
+.details {
+	font-size:1.2em;
+}
+
+.subtitle {
+	font-size:2.2em;
+	color:white;
+}
+
+.meat {
+	font-size:1.45em;
+	text-align:left;
+	margin-top:2%;
+	color:white;
+}
+
+.projmeat {
+	font-size:1.45em;
+	text-align:center;
+	margin-top:2%;
+	color:white;
+}
+
+/*******************    /Text    ******************** */
+
+
+/*******************Menu specific*********************/
+.banner {
+	//height:200px;
+	text-align:center;
+	margin-top:8%;
+	//background-color:#000 ;
+}
+
+
+
+
+/*******************Menu specific*********************/
+
+
+
+
+/*******************    Footer   *********************/
+
+.hoof {
+	background-color:black;
+	height:100px;
+	text-align:center;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	padding-top:40px;
+
+}
+
+/*******************   /Footer   *********************/
